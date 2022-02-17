@@ -98,7 +98,7 @@
     background:linear-gradient(to right , orange,red );
 }
 .content{
-    padding: 7rem;
+    padding: 5rem;
     text-align: justify;
     position: relative;
     z-index: 100;
