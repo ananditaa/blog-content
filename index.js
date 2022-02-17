@@ -7,16 +7,12 @@ function scrolling(){
 
    
     var value=scrolled;
-    var boxAnimation= document.getElementById('box-id');
     var coinAnimation= document.getElementById('coin-id');
     console.log(value);
-    if (value>50) {
- 
-       boxAnimation.classList.add('box-animation');
+    if (value==50) {
        coinAnimation.classList.add('coin-animation');
     }
     else{
-        boxAnimation.classList.remove('box-animation');
         coinAnimation.classList.remove('coin-animation');
     }
    
