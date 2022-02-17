@@ -9,7 +9,7 @@ function scrolling(){
     var value=scrolled;
     var coinAnimation= document.getElementById('coin-id');
     console.log(value);
-    if (value==50) {
+    if (value>=50) {
        coinAnimation.classList.add('coin-animation');
     }
     else{
