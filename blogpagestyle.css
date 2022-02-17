@@ -98,7 +98,10 @@
     background:linear-gradient(to right , orange,red );
 }
 .content{
-    padding: 3rem;
+    padding: 7rem;
+    text-align: justify;
+    position: relative;
+    z-index: 100;
 }
 .content p{
    color: white;
