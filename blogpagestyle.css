@@ -127,7 +127,7 @@ img{
 
 }
 .coin-img{
-    width: 100px;
+    max-width:48px;
     position: Absolute;
     top: -13px;
     left: 9px;
